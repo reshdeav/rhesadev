@@ -1,0 +1,241 @@
+<html>
+<head>
+	<title> Nike </title>
+<style>
+	body{
+		background:#F7F7F7;
+		width:100%;
+		font-family:Verdana;
+		margin:0;
+		padding:0;
+	}
+	.house{
+		width:100%;
+		background:white;
+		border:1px solid black;
+	}
+	.navbar {
+  width:60%;
+  height:70px;
+  margin:0;
+  padding:0;
+  list-style:none;
+  line-height:67px;
+  background:white;
+  text-align:center;
+}
+
+.navbar li a{
+  float:left;
+  width:20%;
+  color:black;
+  text-decoration:none;
+  transition-duration:0.1s;
+}
+.navbar li a:hover{
+  font-weight:bold;
+  border-bottom:5px solid black;
+}
+.content{
+	width:75%;
+	height:60%;
+	background:white;
+	border-radius:20px;
+}
+
+.footer{
+	width:100%;
+	background:white;
+	text-align:left;
+	height:4%;
+	font-size: 15;
+
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.input{
+  height:50px;
+}
+
+.button{
+  width:170px;height:50px;background:black;color:white;border-radius:20px;border:1px solid black;
+  transition-duration:0.3s;
+}
+.button:hover {
+  background:white;
+  color:black;
+}
+
+tr{
+  border:none;
+}
+td{
+  border:none;
+}
+
+.textbox{
+  width:200px;
+  height:30px;
+  border:1px solid black;
+  border-radius:10px;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+</head>
+<body>
+	<table width=100% border=0>
+		<tr>
+			<td rowspan=2 width=25%> <img src="nikenike.png"> </td>
+			<td width=50%> <center><h1> NIKE </h1> </center> </td>
+			<td rowspan=2 width=25%> <img align=right src="nikenike.png"> </td>
+		</tr>
+		<tr>
+			<td> <center>Nike | Just. Do. It. | Nike.ID</center></td>
+		</tr>
+	</table>
+	
+	
+	<br>
+	<center><div class="house"><ul class="navbar">
+	<li> <a href="home.html"><img src="homelogo.png"> <b>Home</b> </a> </li>
+	<li> <a href="produk.html"  ><img src="shoeslogo.png"> Product </a> </li>
+	<li> <a href="order.html" style="border-bottom:5px solid black;"><img src="cart.png">Order </a> </li>
+	<li> <a href="contactus.html"><img src="phone.png"> Contact Us </a> </li>
+	<li> <a href="login.html"><img src="login.png"> Login </a></li>
+</ul></center>
+</div></center><center>
+	<br><br>
+<div class="content">
+<table border=0 width=100% height=100%>
+	<tr>
+		<td width=0%>
+
+		</td>
+		<td width=100%> <center>
+
+    <table border=1 width=100%  style="border:2px solid black;">
+      <tr>
+        <td style="text-align:right" > <center> <font style="font-family:Arial Black" size=5> <b> JUST DO IT. </font> <br>  <img src="justdoit.png"> </td>
+        <td> <center>
+          <table border=0> 
+      <tr>
+        <td colspan=3 style="height:70px;"> <font size=5> <b> <center> Order </center></b></td>
+      </tr>
+      <tr>
+        <td class="input"> Nama </td>
+        <td> : </td>
+        <td> <select name="nama" id="merk" class="textbox">
+              <option value="nike">nike</option>
+              <option value="nike">nike</option>
+              <option value="nike">nike</option>
+              <option value="nike">nike</option>
+              </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="input"> Harga </td>
+        <td> : </td>
+        <td> <input type="text" placeholder="" class="textbox"> </td>
+      </tr>
+      
+      <tr>
+        <td class="input"> Ukuran </td>
+        <td> : </td>
+        <td> <input type=radio name="ukuran" value="44"> 44
+             <input type=radio name="ukuran" value="43"> 43
+             <input type=radio name="ukuran" value="42"> 42
+             <br>
+             <input type=radio name="ukuran" value="41"> 41
+             <input type=radio name="ukuran" value="40"> 40
+             <input type=radio name="ukuran" value="39"> 39
+        </td>
+        
+        <tr>
+          <td class="input"> Jumlah </td>
+          <td> : </td>
+          <td> <input type="text" name="jumlah" class="textbox"> </td>
+        </tr>
+        <tr>
+          <td colspan=3> <br> <center> <input type="button" value="Beli" class="button" style=""> </td>
+        </tr>
+        <tr>
+          <td> <br> </td>
+        </tr>
+      </center></table>
+      </td>
+      <td style="text-align:right"> <center> <font style="font-family:Arial Black" size=5> <b> JUST DO IT. </font> <br>  <img src="justdoit.png"></td>
+    </tr>
+
+    </table>
+    </td>
+</td>
+
+</tr></table>
+</div>
+<br>
+<div class="footer"><table width=100% border=0><tr><td><font size=5 color=white> © </font> </td>
+ <td> Copyright © by Kelompok Doa Ibu | Just. Do. It. | All of the content on our Platform is owned by NIKE or others we license Content </td>
+ <td style="text-align:right"> Contact Us : </td> <td> <b><i><u> <img src="sosmed.png"> </td>
+ </tr></table>
+</div>
+</body>
+</html>
